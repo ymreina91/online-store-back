@@ -1,0 +1,17 @@
+{
+  "name": "content-json-server",
+  "version": "1.0.0",
+  "description": "Web Contents",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "M@so",
+  "license": "",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}

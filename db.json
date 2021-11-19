@@ -1,0 +1,262 @@
+{
+	"departamentos":[
+		{
+		  "id": 1,
+		  "nombre": "Infantil"
+		},
+		{
+		  "id": 2,
+		  "nombre": "Ferretería"
+		},
+		{
+		  "id": 3,
+		  "nombre": "Víveres"
+		},
+		{
+		  "id": 4,
+		  "nombre": "Perfumería"
+		},
+		{
+		  "id": 5,
+		  "nombre": "Ropa"
+		}
+	],
+	"categorias":[
+		  {
+			"id": 1,
+			"nombre": "Ropa para Damas",
+			"deptoId": 5
+		  },
+		  {
+			"id": 2,
+			"nombre": "Ropa para Caballeros",
+			"deptoId": 5
+		  },
+		  {
+			"id": 3,
+			"nombre": "Ropa niños de 5 a 14 años",
+			"deptoId": 5
+		  },
+		  {
+			"id": 4,
+			"nombre": "Ferretería Electrónica",
+			"deptoId": 2
+		  },
+		  {
+			"id": 5,
+			"nombre": "Ferretería Útiles",
+			"deptoId": 2
+		  },
+		  {
+			"id": 6,
+			"nombre": "Herramientas pesadas",
+			"deptoId": 2
+		  },
+		  {
+			"id": 7,
+			"nombre": "Lacteos",
+			"deptoId": 3
+		  },
+		  {
+			"id": 8,
+			"nombre": "Carnicos",
+			"deptoId": 3
+		  },
+		  {
+			"id": 9,
+			"nombre": "Granos y cereales",
+			"deptoId": 3
+		  },
+		  {
+			"id": 10,
+			"nombre": "Especias",
+			"deptoId": 3
+		  },
+		  {
+			"id": 11,
+			"nombre": "Cremas de Piel",
+			"deptoId": 3
+		  },
+		  {
+			"id": 12,
+			"nombre": "Perfumes",
+			"deptoId": 4
+		  },
+		  {
+			"id": 13,
+			"nombre": "Cremas para tratamientos faciales",
+			"deptoId": 4
+		  },
+		  {
+			"id": 14,
+			"nombre": "Tratamientos de cabello",
+			"deptoId": 4
+		  },
+		  {
+			"id": 15,
+			"nombre": "Juguetería",
+			"deptoId": 1
+		  },
+		  {
+			"id": 16,
+			"nombre": "Canastilla",
+			"deptoId": 1
+		  }
+	],
+	"articulos":[
+  {
+    "id": 1,
+    "nombre": "McQueen Lego",
+    "costo": 45.99,
+    "deptoId": 1,
+    "categorias": [15]
+  },
+  {
+    "id": 2,
+    "nombre": "Mate Lego",
+    "costo": 45.99,
+    "deptoId": 1,
+    "categorias": [15]
+  },
+  {
+    "id": 3,
+    "nombre": "Spiderman Lego",
+    "costo": 45.99,
+    "deptoId": 1,
+    "categorias": [15]
+  },
+  {
+    "id": 4,
+    "nombre": "Transformers Lego SET",
+    "costo": 45.99,
+    "deptoId": 1,
+    "categorias": [15]
+  },
+  {
+    "id": 5,
+    "nombre": "Set de cuna primera etapa",
+    "costo": 45.99,
+    "deptoId": 1,
+    "categorias": [16]
+  },
+  {
+    "id": 5,
+    "nombre": "Patucos de invierno",
+    "costo": 45.99,
+    "deptoId": 1,
+    "categorias": [16]
+  },
+  {
+    "id": 6,
+    "nombre": "Conjunto de verano",
+    "costo": 45.99,
+    "deptoId": 1,
+    "categorias": [16]
+  },
+  {
+    "id": 7,
+    "nombre": "Taladro Percutor",
+    "costo": 45.99,
+    "deptoId": 2,
+    "categorias": [4]
+  },
+  {
+    "id": 8,
+    "nombre": "Sierra de Mano",
+    "costo": 45.99,
+    "deptoId": 2,
+    "categorias": [4]
+  },
+  {
+    "id": 9,
+    "nombre": "Puntillas de acero",
+    "costo": 45.99,
+    "deptoId": 2,
+    "categorias": [5]
+  },
+  {
+    "id": 9,
+    "nombre": "Martillo Percutor",
+    "costo": 45.99,
+    "deptoId": 2,
+    "categorias": [6]
+  },
+  {
+    "id": 10,
+    "nombre": "Queso gouda",
+    "costo": 45.99,
+    "deptoId": 3,
+    "categorias": [7]
+  },
+  {
+    "id": 11,
+    "nombre": "Yogurt Natural",
+    "costo": 45.99,
+    "deptoId": 3,
+    "categorias": [7]
+  },
+  {
+    "id": 12,
+    "nombre": "Lonjas de certo",
+    "costo": 45.99,
+    "deptoId": 3,
+    "categorias": [8]
+  },
+  {
+    "id": 13,
+    "nombre": "Carne molida de Pavo",
+    "costo": 45.99,
+    "deptoId": 3,
+    "categorias": [8]
+  },
+  {
+    "id": 14,
+    "nombre": "Arroz precocido",
+    "costo": 45.99,
+    "deptoId": 3,
+    "categorias": [9]
+  },
+  {
+    "id": 15,
+    "nombre": "Frijoles Negro criollos",
+    "costo": 45.99,
+    "deptoId": 3,
+    "categorias": [9]
+  },
+  {
+    "id": 16,
+    "nombre": "Comino",
+    "costo": 45.99,
+    "deptoId": 3,
+    "categorias": [10]
+  },
+  {
+    "id": 17,
+    "nombre": "Crema de piel Dove",
+    "costo": 45.99,
+    "deptoId": 4,
+    "categorias": [11]
+  },
+  {
+    "id": 18,
+    "nombre": "Perfume Givenchy",
+    "costo": 45.99,
+    "deptoId": 4,
+    "categorias": [12]
+  },
+  {
+    "id": 19,
+    "nombre": "Vestido de mangas largas",
+    "costo": 45.99,
+    "deptoId": 5,
+    "categorias": [1]
+  },
+  {
+    "id": 20,
+    "nombre": "Vaquero Caqui Gris",
+    "costo": 45.99,
+    "deptoId": 5,
+    "categorias": [1]
+  }
+]
+}
